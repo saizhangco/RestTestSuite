@@ -1,0 +1,14 @@
+post: 
+  type: T
+  path: C:\\nckm\\csv\\admission-data
+  url: http://127.0.0.1:8080/pyxis/medes/adt/admission
+
+post: 
+  type: T
+  path: C:\\nckm\\csv\\discharge-data
+  url: http://127.0.0.1:8080/pyxis/medes/adt/discharge
+
+post: 
+  type: RT
+  path: C:\\nckm\\csv\\order-data
+  url: http://127.0.0.1:8080/pyxis/medes/order/add

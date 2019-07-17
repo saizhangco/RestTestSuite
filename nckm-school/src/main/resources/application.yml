@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    url: jdbc:sqlite:D:/WorkspaceDEV/Java/RestTestSuite/nckm-school/db/nckm-school.db
+    username: 
+    password: 
+    driver-class-name: org.sqlite.JDBC
+logging:
+  file: nckm.log
