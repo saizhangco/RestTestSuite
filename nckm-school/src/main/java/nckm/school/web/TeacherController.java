@@ -43,7 +43,7 @@ public class TeacherController {
 		int count = 0;
 		for (Teacher teacher : teachers) {
 			boolean result = teacherDao.add(teacher);
-			System.out.print(result);
+			System.out.print(result + "\t");
 			System.out.println(teacher);
 			if (result) {
 				count++;

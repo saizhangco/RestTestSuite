@@ -2,7 +2,7 @@ server:
    port: 8081
 post:
    type: A
-   path: C:\\nckm\\csv_school\\teacher-data
-   url: http://127.0.0.1:8080/teacher/teachers
+   path: C:\\nckm\\csv_school\\student-data
+   url: http://127.0.0.1:8080/student/students
    statusCode: 201
    entityContent: 4

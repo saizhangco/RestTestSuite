@@ -3,6 +3,7 @@ post:
    path: C:\\nckm\\csv_school\\teacher-data
    url: http://127.0.0.1:8080/teacher
    statusCode: 201
+   entityContent: 
 
 post:
    type: A
@@ -11,3 +12,16 @@ post:
    statusCode: 201
    entityContent: 4
 
+post:
+   type: T
+   path: C:\\nckm\\csv_school\\student-data
+   url: http://127.0.0.1:8080/student
+   statusCode: 201
+   entityContent: 
+
+post:
+   type: A
+   path: C:\\nckm\\csv_school\\student-data
+   url: http://127.0.0.1:8080/student/students
+   statusCode: 201
+   entityContent: 4
